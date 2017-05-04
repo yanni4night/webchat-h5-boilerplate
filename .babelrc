@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "Android": "> 4",
+        "iOS": "> 7"
+      }
+    }]
+  ]
+}

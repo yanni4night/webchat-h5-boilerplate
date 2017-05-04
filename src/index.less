@@ -1,0 +1,8 @@
+.loop(@counter) when (@counter > 0) {
+  .loop((@counter - 1));
+  .section:nth-of-type(@{counter}) {
+    background-color: rgb((50 * (4 - @counter)), 0, (50 * @counter));
+  }
+}
+
+.loop(4);
